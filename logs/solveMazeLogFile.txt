@@ -1,0 +1,2 @@
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.106 number of steps in solution:33
+INFO - IP of client:DESKTOP-GRMQE34/192.168.56.1 number of steps in solution:233

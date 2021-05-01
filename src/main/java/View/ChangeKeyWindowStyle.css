@@ -1,0 +1,25 @@
+.root{
+    -fx-background-color: silver;
+
+}
+
+.text-field:focused{
+    -fx-background-color: darkblue;
+    -fx-text-fill: aliceblue;
+}
+
+.text-field{
+    -fx-background-color:skyblue;
+}
+
+.label{
+    -fx-font-weight: bold;
+    -fx-text-fill: palevioletred;
+}
+
+.button{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}

@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: dimgray;
+    }
+
+.label{
+    -fx-text-fill: yellow;
+    -fx-font-family: "JetBrains Mono";
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}

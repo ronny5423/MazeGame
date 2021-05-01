@@ -1,0 +1,16 @@
+#buttonsLayout{
+    -fx-background-color:greenyellow;
+}
+
+.button{
+    -fx-background-color:white;
+    -fx-text-fill:darkgreen;
+    -fx-font-weight: bold;
+    -fx-font-family: David;
+  }
+
+.button:hover{
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+}
+

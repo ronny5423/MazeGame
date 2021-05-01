@@ -1,0 +1,9 @@
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.106 Start Position:{27,9} end position:{29,3} rows:54 columns:32
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.106 Start Position:{5,38} end position:{1,41} rows:50 columns:100
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.106 Start Position:{23,28} end position:{38,16} rows:50 columns:30
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.105 Start Position:{3,1} end position:{1,1} rows:5 columns:5
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.105 Start Position:{3,1} end position:{0,2} rows:5 columns:5
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.105 Start Position:{4,2} end position:{2,3} rows:6 columns:6
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.105 Start Position:{1,1} end position:{2,3} rows:5 columns:4
+INFO - IP of client:DESKTOP-GRMQE34/192.168.1.105 Start Position:{4,3} end position:{3,1} rows:5 columns:5
+INFO - IP of client:DESKTOP-GRMQE34/192.168.56.1 Start Position:{10,5} end position:{2,33} rows:50 columns:50

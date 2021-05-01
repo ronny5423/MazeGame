@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane stylesheets="@PropertiesStyle.css"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+          prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="View.PropertiesController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="300.0"/>
+        <ColumnConstraints hgrow="NEVER" minWidth="10.0" prefWidth="300.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+
+    <Label text="UP KEY:" GridPane.rowIndex="0"/>
+    <Label text="DOWN KEY:" GridPane.rowIndex="1"/>
+    <Label text="LEFT KEY:" GridPane.rowIndex="2"/>
+    <Label text="RIGHT KEY:" GridPane.rowIndex="3"/>
+    <Label text="DIAGONAL LEFT UP KEY:" GridPane.rowIndex="4"/>
+    <Label text="DIAGONAL RIGHT UP KEY:" GridPane.rowIndex="5"/>
+    <Label text="DIAGONAL LEFT DOWN KEY:" GridPane.rowIndex="6"/>
+    <Label text="DIAGONAL RIGHT DOWN KEY:" GridPane.rowIndex="7"/>
+    <Label text="NUM OF THREADS IN THREADPOOL:" GridPane.rowIndex="8"/>
+    <Label text="GENERATING ALGORITHM:" GridPane.rowIndex="9"/>
+    <Label text="SOLVING ALGORITHM:" GridPane.rowIndex="10"/>
+    <Label text="Label" GridPane.columnIndex="1" fx:id="upKey"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="downKey"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="leftKey"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="rightKey"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" fx:id="digLeftUp"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" fx:id="digRightUp"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" fx:id="digLeftDown"/>
+    <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" fx:id="digRightDown"/>
+    <Label text="10" GridPane.columnIndex="1" GridPane.rowIndex="8"/>
+    <Label text="DFS" GridPane.columnIndex="1" GridPane.rowIndex="9"/>
+    <Label text="BFS" GridPane.columnIndex="1" GridPane.rowIndex="10"/>
+</GridPane>

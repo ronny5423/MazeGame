@@ -1,0 +1,29 @@
+#welcomeMessage{
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 76px;
+ }
+
+#instructions{
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+}
+
+.label{
+    -fx-font-family: Monospaced;
+}
+
+.menu-bar{
+    -fx-background-color: darkgray;
+    -fx-font-weight: bold;
+ }
+
+.menu{
+    -fx-font-size: 20px;
+    -fx-text-fill: black;
+}
+.menu-item{
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    }

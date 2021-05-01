@@ -1,0 +1,9 @@
+.root{
+    -fx-background-color: chocolate;
+}
+
+.label{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane stylesheets="@ChangeKeyWindowStyle.css" fx:id="layout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ChangeKeysController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <Label text="UP">
+      <GridPane.margin>
+         <Insets left="10.0" />
+      </GridPane.margin></Label>
+    <Label text="DOWN" GridPane.rowIndex="1">
+      <GridPane.margin>
+         <Insets left="10.0" />
+      </GridPane.margin></Label>
+    <Label text="LEFT" GridPane.rowIndex="2">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Label text="RIGHT" GridPane.rowIndex="3">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Label text="DIAGONAL UP LEFT" GridPane.rowIndex="4">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Label text="DIAGONAL UP RIGHT" GridPane.rowIndex="5">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Label text="DIAGONAL LEFT DOWN" GridPane.rowIndex="6">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Label text="DIAGONAL RIGHT DOWN" GridPane.rowIndex="7">
+      <padding>
+         <Insets left="10.0" />
+      </padding></Label>
+    <Button fx:id="save" mnemonicParsing="false" onMouseClicked="#saveClicked" text="Save" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="8">
+      <GridPane.margin>
+         <Insets left="10.0" right="10.0" />
+      </GridPane.margin></Button>
+    <TextField fx:id="upKey" GridPane.columnIndex="1" editable="false" />
+    <TextField fx:id="downKey" GridPane.columnIndex="1" GridPane.rowIndex="1" editable="false" />
+    <TextField fx:id="leftKey" GridPane.columnIndex="1" GridPane.rowIndex="2" editable="false" />
+    <TextField fx:id="rightKey" GridPane.columnIndex="1" GridPane.rowIndex="3" editable="false" />
+    <TextField fx:id="leftUpDigKey" GridPane.columnIndex="1" GridPane.rowIndex="4" editable="false" />
+    <TextField fx:id="rightUpDigKey" GridPane.columnIndex="1" GridPane.rowIndex="5" editable="false" />
+    <TextField fx:id="leftDownDigKey" GridPane.columnIndex="1" GridPane.rowIndex="6" editable="false" />
+    <TextField fx:id="rightDownDigKey" GridPane.columnIndex="1" GridPane.rowIndex="7" editable="false" />
+</GridPane>

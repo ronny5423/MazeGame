@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox stylesheets="@AboutWindowStyle.css" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal">
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <Label text="Name of first programmer: "/>
+        <Label text="Ron Tyntarev"/>
+    </HBox>
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <Label text="Name of second programmer: "/>
+        <Label text="Noya Karavani"/>
+    </HBox>
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <Label text="Creation date: "/>
+        <Label text="Jun 6th 2020"/>
+    </HBox>
+    <HBox prefHeight="100.0" prefWidth="600.0">
+        <Label text="Algorith for generating maze: "/>
+        <Label text="DFS"/>
+    </HBox>
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <Label text="Algorithm for solving maze: "/>
+        <Label text="BFS"/>
+    </HBox>
+</VBox>

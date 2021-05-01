@@ -1,0 +1,34 @@
+.root{
+    -fx-background-color:cadetblue;
+    }
+
+#heading{
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+#rows{
+    -fx-font-family:Georgia;
+    -fx-text-fill:aquamarine;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+#columns{
+    -fx-font-family: Georgia;
+    -fx-text-fill: aquamarine;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+}
+
+.button{
+    -fx-background-color: darkorange;
+
+}
+.button:hover{
+    -fx-background-color: white;
+}
+.text-field:focused{
+    -fx-background-color: darkcyan;
+}
